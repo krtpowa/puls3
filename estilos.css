@@ -89,6 +89,7 @@ nav
 {
 	background: #878787;
 	font-size: 0.9em;
+	position: relative;
 }
 nav ul
 {
@@ -119,6 +120,27 @@ nav #flechita_nav a:after
 	content: "\e000";
 	font-family: "icomoon";
 	opacity: 0.6;
+}
+nav #home_nav 
+{
+	bottom: 100%;
+	position: absolute;
+	right: 20%;
+}
+nav #home_nav a
+{
+	background: #22BCE0;
+	border-radius: 5px 5px 0 0;
+	padding: 0.2em 1.2em;
+	text-decoration: none;
+}
+nav #home_nav a:after 
+{
+	color: rgba(255,255,255,0.5);
+	content: "\e002";
+	font-family: "icomoon";
+	margin: 0 0 0 0.8em;
+	text-align: right;
 }
 nav #publicar_nav
 {

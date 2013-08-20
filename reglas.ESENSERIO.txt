@@ -1,6 +1,9 @@
 
 
 
+
+
+
 REGLAS DE CODIFICACIÓN EN CSS
 
 1. Todos los atributos en orden alfabético
