@@ -283,7 +283,14 @@ nav #publicar_nav a
 	color: green;
 	content: "\e002";
 }
-
+#registro 
+{
+	transition: all 0.5s linear;
+}
+#registro:hover
+{
+	border-radius: 10px;
+}
 
 
 
